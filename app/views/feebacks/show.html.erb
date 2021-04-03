@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Grade:</strong>
+  <%= @feeback.grade %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @feeback.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @feeback.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_feeback_path(@feeback) %> |
+<%= link_to 'Back', feebacks_path %>
